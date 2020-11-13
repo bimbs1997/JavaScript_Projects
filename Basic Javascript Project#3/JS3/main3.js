@@ -9,7 +9,10 @@ var X = 1997                          //defines the decrement
 X--;
 document.write(X)
 
-
+function modulus() {
+    var simple_math = 35 % 4;
+    document.getElementById("Math").innerHTML = "When you divide 35 by 4 you have a remainder of: " + simple_math;
+}
 
 function addition() {                       //defines the addtion function
     var addition = 5+2;
