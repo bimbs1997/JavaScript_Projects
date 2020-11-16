@@ -8,15 +8,15 @@ function add_numbers_2() {
 add_numbers_1();
 add_numbers_2();
 
-function add_numbers_1() {              //defines the local variable
-    var X = 10;
-    document.write(0 + X + "<br>");
+function add_numbers_3() {              //defines the local variable
+    var Y = 10;
+    document.write(0 + Y + "<br>");
 }
-function add_numbers_2() {
-    document.write(X + 100);
+function add_numbers_4() {
+    document.write(Y + 100);
     }
-add_numbers_1();
-add_numbers_2();
+add_numbers_3();
+add_numbers_4();
 
 
 function add_numbers_1() {      // defines the  a function with an error in it and 
