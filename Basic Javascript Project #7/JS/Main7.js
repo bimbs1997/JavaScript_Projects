@@ -2,11 +2,22 @@ var X = 420;                    //defines the global variable
 function add_numbers_1() {
     document.write(0 + X + "<br>");
 }
-function add_numbers_2() {      //defines the local variable 
+function add_numbers_2() {      
     document.write(X + 100);
 }
 add_numbers_1();
 add_numbers_2();
+
+function add_numbers_1() {              //defines the local variable
+    var X = 10;
+    document.write(0 + X + "<br>");
+}
+function add_numbers_2() {
+    document.write(X + 100);
+    }
+add_numbers_1();
+add_numbers_2();
+
 
 function add_numbers_1() {      // defines the  a function with an error in it and 
     var X = 420                 // use the console.log() method
